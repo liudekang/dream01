@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrap {
+    font-size: .3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 1rem;
+}
